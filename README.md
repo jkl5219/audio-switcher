@@ -20,7 +20,7 @@ Windows 音频输出设备一键切换工具 —— 系统托盘常驻、全局�
 
 ## 🚀 快速开始
 
-1. 下载 `小钻风音频切换器_v1.0.exe`
+1. 在右侧 [Releases](https://github.com/jkl5219/audio-switcher/releases) 下载 `小钻风音频切换器_v1.0.exe`
 2. 双击运行（程序自动最小化到系统托盘）
 3. 右键托盘图标打开设置窗口
 4. 配置热键后即可全局切换
@@ -39,24 +39,8 @@ Windows 音频输出设备一键切换工具 —— 系统托盘常驻、全局�
 
 ```
 小钻风音频切换器_v1.0/
-├── audio_switcher_tray.py    # 源代码（Python 3.12+）
 ├── 小钻风音频切换器_v1.0.exe  # 打包好的可执行程序
 ├── icon.ico                  # 程序图标
-└── 发布说明_v1.0.md          # 详细发布说明
-```
-
-## 🔧 从源码运行
-
-```bash
-pip install pycaw comtypes pywin32
-python audio_switcher_tray.py
-```
-
-## 📦 打包
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --noconsole --icon=icon.ico --name="小钻风音频切换器_v1.0" audio_switcher_tray.py
 ```
 
 ## 📝 License
